@@ -7,7 +7,11 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
+<<<<<<< HEAD
     <ProjectGuid>{0E911408-BF13-4943-8F0B-EC92C963F358}</ProjectGuid>
+=======
+    <ProjectGuid>{A18595BC-13D4-4B33-B4CE-39CBF86C207E}</ProjectGuid>
+>>>>>>> d61e690431a2ddf3838ab979ed31e49a720ad2de
     <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -42,7 +46,10 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+<<<<<<< HEAD
     <Reference Include="System.Data.Entity" />
+=======
+>>>>>>> d61e690431a2ddf3838ab979ed31e49a720ad2de
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -57,12 +64,17 @@
     <Reference Include="System.Web.Routing" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
+<<<<<<< HEAD
     <Reference Include="System.Transactions" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
     <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
+=======
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+>>>>>>> d61e690431a2ddf3838ab979ed31e49a720ad2de
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
@@ -95,9 +107,12 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.30506.0\lib\net40\System.Web.Mvc.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
     <Reference Include="System.Web.Optimization">
       <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
     </Reference>
+=======
+>>>>>>> d61e690431a2ddf3838ab979ed31e49a720ad2de
     <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.30506.0\lib\net40\System.Web.Razor.dll</HintPath>
@@ -114,6 +129,7 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
     <Reference Include="WebMatrix.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.Data.2.0.30506.0\lib\net40\WebMatrix.Data.dll</HintPath>
@@ -262,6 +278,55 @@
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+=======
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\ie\backgroundsize.min.htc" />
+    <Content Include="css\ie\html5shiv.js" />
+    <Content Include="css\ie\PIE.htc" />
+    <Content Include="css\ie\v8.css" />
+    <Content Include="css\images\bottom-1280.svg" />
+    <Content Include="css\images\bottom-1600.svg" />
+    <Content Include="css\images\bottom-3200.svg" />
+    <Content Include="css\images\overlay.png" />
+    <Content Include="css\images\top-1280.svg" />
+    <Content Include="css\images\top-1600.svg" />
+    <Content Include="css\images\top-3200.svg" />
+    <Content Include="css\images\xoverlay.png" />
+    <Content Include="css\skel.css" />
+    <Content Include="css\style-mobile.css" />
+    <Content Include="css\style-mobilep.css" />
+    <Content Include="css\style-narrow.css" />
+    <Content Include="css\style-narrower.css" />
+    <Content Include="css\style-normal.css" />
+    <Content Include="css\style-wide.css" />
+    <Content Include="css\style.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="images\header.jpg" />
+    <Content Include="images\pic01.jpg" />
+    <Content Include="images\pic02.jpg" />
+    <Content Include="images\pic03.jpg" />
+    <Content Include="index.html" />
+    <Content Include="js\init.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\skel.min.js" />
+    <Content Include="LICENSE.txt" />
+    <Content Include="README.txt" />
+>>>>>>> d61e690431a2ddf3838ab979ed31e49a720ad2de
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -269,6 +334,7 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
+<<<<<<< HEAD
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Images\accent.png" />
@@ -300,14 +366,43 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+=======
+>>>>>>> d61e690431a2ddf3838ab979ed31e49a720ad2de
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+<<<<<<< HEAD
+=======
+    <Folder Include="Controllers\" />
+    <Folder Include="Models\" />
+    <Folder Include="obj\Debug\TempPE\" />
+>>>>>>> d61e690431a2ddf3838ab979ed31e49a720ad2de
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
+<<<<<<< HEAD
+=======
+  <ItemGroup>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="obj\Debug\build.force" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="sass\ie\v8.scss" />
+    <Content Include="sass\style-mobile.scss" />
+    <Content Include="sass\style-mobilep.scss" />
+    <Content Include="sass\style-narrow.scss" />
+    <Content Include="sass\style-narrower.scss" />
+    <Content Include="sass\style-normal.scss" />
+    <Content Include="sass\style-wide.scss" />
+    <Content Include="sass\style.scss" />
+    <Content Include="sass\_mixins.scss" />
+    <Content Include="sass\_vars.scss" />
+  </ItemGroup>
+>>>>>>> d61e690431a2ddf3838ab979ed31e49a720ad2de
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -324,9 +419,15 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
+<<<<<<< HEAD
           <DevelopmentServerPort>6092</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:6092/</IISUrl>
+=======
+          <DevelopmentServerPort>4131</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:4101/</IISUrl>
+>>>>>>> d61e690431a2ddf3838ab979ed31e49a720ad2de
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

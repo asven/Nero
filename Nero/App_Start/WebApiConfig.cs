@@ -14,7 +14,6 @@ namespace Nero
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
-<<<<<<< HEAD
 
             // Uncomment the following line of code to enable query support for actions with an IQueryable or IQueryable<T> return type.
             // To avoid processing unexpected or malicious queries, use the validation settings on QueryableAttribute to validate incoming queries.
@@ -23,8 +22,3 @@ namespace Nero
         }
     }
 }
-=======
-        }
-    }
-}
->>>>>>> d61e690431a2ddf3838ab979ed31e49a720ad2de

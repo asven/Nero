@@ -118,9 +118,9 @@
         /* SubPage Header */
 
 	#subpageheader {
-		background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../images/header.jpg");
+		background-color: #433644;
 		background-size: 1280px 184px,						auto,							cover;
-		padding: 3em 0 7em 0;
+		padding: .5em 0 .5em 0;
 	}
 
 		#subpageheader:before {
@@ -160,6 +160,22 @@
 			padding-bottom: 0;
 		}
 
+
+        /* Subpage Footer */
+
+	#subpagefooter {
+		background-color:#00A2E8;
+		background-size: 1280px 184px;
+		padding: 3em 0 1em 0;
+	}
+
+		#subpagefooter:before {
+			height: calc(184px + 2em);
+		}
+
+		#subpagefooter form {
+			padding-bottom: 0;
+		}
 /* Main */
 
 	#main {

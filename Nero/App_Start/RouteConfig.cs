@@ -21,10 +21,10 @@ namespace Nero
 
 
             routes.MapRoute(
-    name: "Email",
-    url: "{controller}",
-    defaults: new { controller = "Email", action = "Index", id = UrlParameter.Optional }
-);
+                name: "Email",
+                url: "{controller}/{action}",
+                defaults: new { controller = "Email", action = "Index", id = UrlParameter.Optional }
+            );
         }
     }
 }

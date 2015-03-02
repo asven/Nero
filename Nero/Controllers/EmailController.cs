@@ -16,7 +16,6 @@ namespace Nero.Controllers
         // GET: /Email/
 
 
-        [HttpPost]
         public ActionResult Index()
         {
             return View();

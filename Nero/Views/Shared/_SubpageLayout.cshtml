@@ -21,6 +21,8 @@
 </head>
     <body>
         <div id="subpageheader">
+            <a href="/Home/Index" style=""><div style="float:left; cursor:pointer" class="logo"><img src="/images/neroLogo.png" style="margin-top:5px; width:65%; margin-left:5px" /></div></a>
+            <h1 style="text-align:left">&nbsp;Nero Engineering</h1>
         </div>
 
 
@@ -30,6 +32,18 @@
                 @RenderBody()
             </section>
         </div>
+
+        <div id="subpagefooter">
+            <ul class="copyright">
+                <li>
+                    <a href="https://www.google.com/maps/place/7135+Madison+Ave+W,+Minneapolis,+MN+55427/%4045.0052837,-93.371005,17z/data=!3m1!4b1!4m2!3m1!1s0x52b334473798d561:0xf121ca3b4ed970c6" title="Go to Google Maps">
+                        &copy; Nero Engineering, 7135 Madison Ave W, Minneapolis, MN 55427
+                    </a>
+                </li>
+                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+
 
         @Scripts.Render("~/bundles/jquery")
         @RenderSection("scripts", required: false)

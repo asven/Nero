@@ -1,17 +1,8 @@
 ﻿@{
-    Layout = null;
+    Layout = "~/Views/Shared/_SubpageLayout.cshtml";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>SendEmail</title>
-</head>
-<body>
-    <div>
-        An email has been sent, we'll get back to you soon, click @Html.ActionLink("here", "Index", "Home") to go back to the home page.
-    </div>
-</body>
-</html>
+<section style="margin:2em;">
+    An email has been sent, we'll get back to you soon, click @Html.ActionLink("here", "Index", "Home") to go back to the home page.
+</section>
+        

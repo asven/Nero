@@ -20,6 +20,5 @@ C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero\bin\System.Web.Ra
 C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero\bin\System.Web.WebPages.xml
 C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero\bin\System.Web.WebPages.Razor.xml
-C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero\obj\Release\Nero.csprojResolveAssemblyReference.cache
 C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero\obj\Release\Nero.dll
 C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero\obj\Release\Nero.pdb

@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nero Engineering</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Nero Engineering,wastewater, water, wastewater engineers" />
+    <meta name="keywords" content="Nero Engineering, Jenny Svennes, Jennifer Svennes, Jen Svennes, Eric Meester, wastewater, water, wastewater engineers,industrial wastewater,municipal water,municipal wastewater,process engineers,Facility Planning,
+              Bidding and Contract Documents, Project Management, Construction Administration, Regulatory Support, Site Layout, Treatment Process Design,
+              Water Distribution Systems, Wastewater Collection Systems" />
+    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/init.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="/css/skel.css" />
+        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="stylesheet" href="/css/style-wide.css" />
+    </noscript>
+    <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+    <script src="~/js/GoogleAnalytics.js"></script>
+</head>
+    <body>
+        <div id="subpageheader">
+        </div>
+
+
+
+        <div id="body">
+            <section class="content-wrapper main-content clear-fix">
+                @RenderBody()
+            </section>
+        </div>
+
+        @Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)
+    </body>
+</html>

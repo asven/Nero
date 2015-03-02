@@ -1,4 +1,4 @@
-﻿using Nero.Model;
+﻿using Nero.Models;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -15,14 +15,27 @@ namespace Nero.Controllers
         //
         // GET: /Email/
 
+
         [HttpPost]
-        public ActionResult Index(EmailUser emailUser)
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult SendEmail(EmailUser emailUser)
         {
             SmtpClient client = new SmtpClient("s18227524.onlinehome-server.com");
             MailMessage message = new MailMessage();
 
+            List<string> emailsToSendTo = ConfigurationManager.AppSettings["contactEmail"].ToString().Split(';').ToList();
 
-            message.To.Add(ConfigurationManager.AppSettings["contactEmail"].ToString());
+            foreach (string email in emailsToSendTo.Where(etst => !string.IsNullOrEmpty(etst)).ToList())
+            {
+                message.To.Add(email);
+            }
+
+            
             message.From = new MailAddress("info@neroeng.com");
             message.Subject = "Contact form completed on neroeng.com";
             message.IsBodyHtml = true;

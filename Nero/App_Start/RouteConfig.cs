@@ -18,6 +18,13 @@ namespace Nero
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+
+
+            routes.MapRoute(
+    name: "Email",
+    url: "{controller}",
+    defaults: new { controller = "Email", action = "Index", id = UrlParameter.Optional }
+);
         }
     }
 }

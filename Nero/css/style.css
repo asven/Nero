@@ -823,6 +823,96 @@
 			margin: 0.25em 0 0 0;
 		}
 
+        /* Subpage Header */
+
+	#subpageheader {
+		background-attachment: scroll,							scroll,					fixed;
+		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../images/header.jpg");
+		background-position: bottom center,					top left,				center center;
+		background-repeat: repeat-x,						repeat,					no-repeat;
+		background-size: 3200px 460px,					auto,					cover;
+		color: rgba(255, 255, 255, 0.8);
+		padding: 10em 0 20em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		#subpageheader:before, #subpageheader:after {
+			background: rgba(224, 224, 224, 0.75);
+			content: '';
+			left: 50%;
+			position: absolute;
+			width: 1px;
+			z-index: 0;
+		}
+
+		#subpageheader:before {
+			height: calc(100% - 50px);
+			opacity: 0.15;
+			top: 0;
+		}
+
+		#subpageheader:after {
+			bottom: 0;
+			height: 50px;
+		}
+
+		#subpageheader a {
+			border-bottom-color: rgba(255, 255, 255, 0.35);
+			color: rgba(255, 255, 255, 0.8);
+		}
+
+			#subpageheader a:hover {
+				border-bottom-color: transparent;
+				color: #4eb980;
+			}
+
+		#subpageheader strong, #subpageheader b {
+			color: white;
+		}
+
+		#subpageheader h1, #subpageheader h2, #subpageheader h3, #subpageheader h4, #subpageheader h5, #subpageheader h6 {
+			color: white;
+		}
+
+		#subpageheader input[type="submit"],
+		#subpageheader input[type="reset"],
+		#subpageheader input[type="button"],
+		#subpageheader .button {
+			background: white;
+			color: #544d55;
+		}
+
+		#subpageheader .logo {
+			background: #00A2E8;
+			border-radius: 100%;
+			color: white;
+			cursor: default;
+			display: inline-block;
+			font-size: 2.25em;
+			height: 2.35em;
+			line-height: 2.35em;
+			margin: 0 0 0.75em 0;
+			text-align: center;
+			width: 2.35em;
+		}
+
+			#subpageheader .logo.fa-paper-plane-o:before {
+				left: -0.075em;
+				position: relative;
+			}
+
+		#subpageheader h1 {
+			font-size: 2.5em;
+			margin: 0;
+		}
+
+		#subpageheader p {
+			font-size: 1.5em;
+			line-height: 1.5em;
+			margin: 0.25em 0 0 0;
+		}
+
 /* Footer */
 
 	#footer {
@@ -877,7 +967,7 @@
 		#footer .button {
 			background: white;
 			box-shadow: inset 0 0 0 1px white;
-			color: #4eb980;
+			color: #00A2E8;
 		}
 
 			#footer input[type="submit"]:hover,

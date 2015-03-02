@@ -764,6 +764,98 @@
 		}
 	}
 
+
+	/* subpage Header */
+
+	#subpageheader {
+		background-attachment:		scroll,							scroll,					fixed;
+		background-image:			url('images/top-3200.svg'),		url('images/overlay.png'),		url('../images/header.jpg');
+		background-position:		bottom center,					top left,				center center;
+		background-repeat:			repeat-x,						repeat,					no-repeat;
+		background-size:			3200px 460px,					auto,					cover;
+		color: $color-accent2-fg;
+		padding: 10em 0 20em 0;
+		position: relative;
+		text-align: center;
+
+		&:before,
+		&:after {
+			background: $color-border;
+			content: '';
+			left: 50%;
+			position: absolute;
+			width: 1px;
+			z-index: 0;
+		}
+		
+		&:before {
+			height: calc(100% - 50px);
+			opacity: 0.15;
+			top: 0;
+		}
+
+		&:after {
+			bottom: 0;
+			height: 50px;
+		}
+
+		a {
+			border-bottom-color: $color-accent2-fg-light;
+			color: $color-accent2-fg;
+			
+			&:hover {
+				border-bottom-color: transparent;
+				color: $color-accent-bg;
+			}
+		}
+
+		strong, b {
+			color: $color-accent2-fg-bold;
+		}
+	
+		h1, h2, h3, h4, h5, h6 {
+			color: $color-accent2-fg-bold;
+		}
+
+		input[type="submit"],
+		input[type="reset"],
+		input[type="button"],
+		.button {
+			background: $color-accent2-fg-bold;
+			color: $color-accent2-bg;
+		}
+		
+		.logo {
+			background: $color-accent-bg;
+			border-radius: 100%;
+			color: $color-accent-fg-bold;
+			cursor: default;
+			display: inline-block;
+			font-size: 2.25em;
+			height: 2.35em;
+			line-height: 2.35em;
+			margin: 0 0 0.75em 0;
+			text-align: center;
+			width: 2.35em;
+			
+			&.fa-paper-plane-o:before {
+				left: -0.075em;
+				position: relative;
+			}
+		}
+		
+		h1 {
+			font-size: 2.5em;
+			margin: 0;
+		}
+		
+		p {
+			font-size: 1.5em;
+			line-height: 1.5em;
+			margin: 0.25em 0 0 0;
+		}
+	}
+
 /* Footer */
 
 	#footer {

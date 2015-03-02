@@ -115,6 +115,34 @@
 			font-size: 1em;
 		}
 
+        /* SubPage Header */
+
+	#subpageheader {
+		background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../images/header.jpg");
+		background-size: 1280px 184px,						auto,							cover;
+		padding: 3em 0 7em 0;
+	}
+
+		#subpageheader:before {
+			height: calc(100% - 20px);
+		}
+
+		#subpageheader:after {
+			height: 20px;
+		}
+
+		#subpageheader .logo {
+			font-size: 1.5em;
+		}
+
+		#subpageheader h1 {
+			font-size: 1.25em;
+		}
+
+		#subpageheader p {
+			font-size: 1em;
+		}
+
 /* Footer */
 
 	#footer {

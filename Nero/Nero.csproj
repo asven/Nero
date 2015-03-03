@@ -123,7 +123,10 @@
     <Content Include="Global.asax" />
     <None Include="Properties\PublishProfiles\Nero.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
+    <Content Include="images\bottom.jpg" />
+    <Content Include="images\middle.jpg" />
     <Content Include="images\neroLogo.png" />
+    <Content Include="images\top.jpg" />
     <Content Include="js\GoogleAnalytics.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />

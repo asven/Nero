@@ -22,3 +22,4 @@ C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero\bin\System.Web.We
 C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero\bin\System.Web.WebPages.Razor.xml
 C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero\obj\Debug\Nero.dll
 C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero\obj\Debug\Nero.pdb
+C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero\obj\Debug\Nero.csprojResolveAssemblyReference.cache

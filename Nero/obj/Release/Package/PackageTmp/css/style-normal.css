@@ -75,6 +75,29 @@
 		#header p {
 			font-size: 1.15em;
 		}
+/* Subpage Header */
+        
+	#subpageheader {
+		background-attachment: scroll,							scroll,							scroll;
+		background-size: 1600px 230px,					auto,							cover;
+		padding: .5em 0 .5em 0;
+	}
+
+		#subpageheader:before {
+			height: calc(100% - 25px);
+		}
+
+		#subpageheader:after {
+			height: 25px;
+		}
+
+		#subpageheader h1 {
+			font-size: 2em;
+		}
+
+		#subpageheader p {
+			font-size: 1.15em;
+		}
 
 /* Footer */
 
@@ -86,6 +109,19 @@
 	}
 
 		#footer:before {
+			height: calc(230px + 4em);
+		}
+
+
+        /* Subpage Footer */
+
+	#subpagefooter {
+		background-color:#00A2E8;
+		background-size: 1600px 230px;
+		padding: 3em 0 1em 0;
+	}
+
+		#subpagefooter:before {
 			height: calc(230px + 4em);
 		}
 

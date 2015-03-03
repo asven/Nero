@@ -38,3 +38,19 @@
 			font-size: 1.25em;
 			line-height: 1.65em;
 		}
+
+
+        /* Subpage Header */
+
+	#subpageheader {
+		padding: .5em 0 .5em 0;
+	}
+
+		#subpageheader h1 {
+			font-size: 2.25em;
+		}
+
+		#subpageheader p {
+			font-size: 1.25em;
+			line-height: 1.65em;
+		}

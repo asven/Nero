@@ -114,6 +114,43 @@
 			-ms-behavior: url('css/ie/PIE.htc');
 		}
 	}
+
+
+	/* Subpage Header */
+
+	#subpageheader {
+		background-image: url('../../images/header.jpg') !important;
+		background-size: cover !important;
+		background-position: scroll !important;
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		padding: 8em 0 !important;
+		color: $color-accent2-fg-bold;
+		
+		a {
+			color: inherit;
+		}
+		
+		&:before {
+			content: '';
+			background-image: url('../images/overlay.png');
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			display: block;
+			z-index: 0;
+		}
+		
+		> * {
+			position: relative;
+			z-index: 1;
+		}
+		
+		.logo {
+			-ms-behavior: url('css/ie/PIE.htc');
+		}
+	}
 	
 /* Footer */
 

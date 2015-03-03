@@ -147,6 +147,7 @@
     <Content Include="Views\Email\SendEmail.cshtml" />
     <Content Include="Views\Shared\_SubpageLayout.cshtml" />
     <Content Include="Views\Email\Index.cshtml" />
+    <Content Include="Web.sitemap" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">

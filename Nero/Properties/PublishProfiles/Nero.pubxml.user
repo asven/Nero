@@ -103,7 +103,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/01/2015 15:49:34</publishTime>
     </File>
     <File Include="bin/Nero.dll">
-      <publishTime>03/03/2015 08:13:13</publishTime>
+      <publishTime>03/03/2015 09:51:09</publishTime>
     </File>
     <File Include="bin/Nero.pdb">
       <publishTime>03/01/2015 15:27:35</publishTime>
@@ -437,6 +437,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Web.config">
       <publishTime>03/03/2015 08:15:44</publishTime>
+    </File>
+    <File Include="Web.sitemap">
+      <publishTime>03/03/2015 08:34:54</publishTime>
     </File>
   </ItemGroup>
 </Project>

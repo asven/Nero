@@ -47,3 +47,4 @@ C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero\bin\System.Web.
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero\obj\Release\Nero.csprojResolveAssemblyReference.cache
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero\obj\Release\Nero.dll
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero\obj\Release\Nero.pdb
+C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero\obj\Release\Nero.csprojResolveAssemblyReference.cache

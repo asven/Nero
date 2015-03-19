@@ -103,7 +103,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/01/2015 15:49:34</publishTime>
     </File>
     <File Include="bin/Nero.dll">
-      <publishTime>03/05/2015 17:31:55</publishTime>
+      <publishTime>03/18/2015 20:29:35</publishTime>
     </File>
     <File Include="bin/Nero.pdb">
       <publishTime>03/01/2015 15:27:35</publishTime>
@@ -184,7 +184,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/01/2015 15:49:30</publishTime>
     </File>
     <File Include="css/ie/v8.css">
-      <publishTime>03/01/2015 15:49:30</publishTime>
+      <publishTime>03/18/2015 20:15:27</publishTime>
     </File>
     <File Include="css/images/bottom-1280.svg">
       <publishTime>03/01/2015 15:49:30</publishTime>
@@ -197,6 +197,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="css/images/overlay.png">
       <publishTime>03/01/2015 15:49:30</publishTime>
+    </File>
+    <File Include="css/images/overlaylite.png">
+      <publishTime>03/18/2015 20:13:18</publishTime>
     </File>
     <File Include="css/images/top-1280.svg">
       <publishTime>03/01/2015 15:49:30</publishTime>
@@ -214,7 +217,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/01/2015 15:49:30</publishTime>
     </File>
     <File Include="css/style-mobile.css">
-      <publishTime>03/02/2015 16:56:40</publishTime>
+      <publishTime>03/18/2015 20:15:27</publishTime>
     </File>
     <File Include="css/style-mobilep.css">
       <publishTime>03/02/2015 16:56:40</publishTime>
@@ -226,13 +229,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/01/2015 15:49:30</publishTime>
     </File>
     <File Include="css/style-normal.css">
-      <publishTime>03/02/2015 16:56:40</publishTime>
+      <publishTime>03/18/2015 20:15:27</publishTime>
     </File>
     <File Include="css/style-wide.css">
       <publishTime>03/02/2015 16:56:40</publishTime>
     </File>
     <File Include="css/style.css">
-      <publishTime>03/02/2015 16:56:40</publishTime>
+      <publishTime>03/18/2015 20:15:27</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>03/01/2015 15:49:30</publishTime>
@@ -343,7 +346,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/01/2015 20:21:27</publishTime>
     </File>
     <File Include="sass/style-mobile.scss">
-      <publishTime>03/01/2015 20:21:54</publishTime>
+      <publishTime>03/18/2015 20:15:27</publishTime>
     </File>
     <File Include="sass/style-mobilep.scss">
       <publishTime>03/01/2015 20:22:09</publishTime>
@@ -355,13 +358,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/01/2015 15:49:31</publishTime>
     </File>
     <File Include="sass/style-normal.scss">
-      <publishTime>03/01/2015 20:22:26</publishTime>
+      <publishTime>03/18/2015 20:15:27</publishTime>
     </File>
     <File Include="sass/style-wide.scss">
       <publishTime>03/01/2015 20:22:38</publishTime>
     </File>
     <File Include="sass/style.scss">
-      <publishTime>03/01/2015 20:23:04</publishTime>
+      <publishTime>03/18/2015 20:15:14</publishTime>
     </File>
     <File Include="sass/_mixins.scss">
       <publishTime>03/01/2015 15:49:31</publishTime>
@@ -424,7 +427,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/02/2015 16:56:40</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>03/05/2015 17:29:15</publishTime>
+      <publishTime>03/18/2015 20:23:43</publishTime>
     </File>
     <File Include="Views/Shared/_SubpageLayout.cshtml">
       <publishTime>03/05/2015 17:29:34</publishTime>

@@ -822,6 +822,11 @@
 			line-height: 1.5em;
 			margin: 0.25em 0 0 0;
 		}
+        #header p.smallerHeaderFont{
+			font-size: 1em;
+			line-height: 1.5em;
+			margin: 0.25em 0 0 0;
+		}
 
         /* Subpage Header */
 

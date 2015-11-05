@@ -1,0 +1,4 @@
+C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero.Models\bin\Release\Nero.Models.dll
+C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero.Models\bin\Release\Nero.Models.pdb
+C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero.Models\obj\Release\Nero.Models.dll
+C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero.Models\obj\Release\Nero.Models.pdb

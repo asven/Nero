@@ -14,10 +14,18 @@ namespace Nero
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+                name: "AboutSpecific",
+                url: "About/{name}",
+                defaults: new { controller = "About", action = "Index" }
+            );
+
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+
 
 
             routes.MapRoute(

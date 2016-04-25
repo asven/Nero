@@ -115,6 +115,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\EmailController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
   </ItemGroup>
@@ -152,12 +153,12 @@
     <Content Include="Views\Email\SendEmail.cshtml" />
     <Content Include="Views\Shared\_SubpageLayout.cshtml" />
     <Content Include="Web.sitemap" />
+    <Content Include="Views\About\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\EmailUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -240,6 +241,16 @@
     <Content Include="sass\style.scss" />
     <Content Include="sass\_mixins.scss" />
     <Content Include="sass\_vars.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nero.DataAccess\Nero.DataAccess.csproj">
+      <Project>{78f8ea9d-be7c-4f5d-93e9-b6b041941006}</Project>
+      <Name>Nero.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nero.Models\Nero.Models.csproj">
+      <Project>{1121bc17-7afc-41ec-9538-7416a47cc265}</Project>
+      <Name>Nero.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

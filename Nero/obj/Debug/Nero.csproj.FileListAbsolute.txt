@@ -29,6 +29,8 @@ C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero\bin\Antlr3.Runt
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero\bin\EntityFramework.dll
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero\bin\Nero.DataAccess.dll
+C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero\bin\Nero.Models.dll
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero\bin\System.Web.Helpers.dll
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero\bin\System.Web.Mvc.dll
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero\bin\System.Web.Optimization.dll
@@ -37,6 +39,8 @@ C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero\bin\System.Web.
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero\bin\System.Web.WebPages.dll
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero\bin\System.Web.WebPages.Razor.dll
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero\bin\WebGrease.dll
+C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero\bin\Nero.DataAccess.pdb
+C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero\bin\Nero.Models.pdb
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero\bin\EntityFramework.xml
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero\bin\System.Web.Helpers.xml
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero\bin\System.Web.Mvc.xml

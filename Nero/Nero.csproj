@@ -125,6 +125,10 @@
     <None Include="Properties\PublishProfiles\Nero.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="images\bottom.jpg" />
+    <Content Include="images\EricMeester.jpg" />
+    <Content Include="images\EricMeesterHeadShot.jpg" />
+    <Content Include="images\JenniferSvennes.jpg" />
+    <Content Include="images\JenniferSvennesHeadShot.jpg" />
     <Content Include="images\middle.jpg" />
     <Content Include="images\neroLogo.png" />
     <Content Include="images\top.jpg" />

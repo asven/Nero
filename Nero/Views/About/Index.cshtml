@@ -1,8 +1,8 @@
 ﻿@model List<Nero.Models.Employee>
 @{
-    
-    if(Model.Count == 1)
-    { 
+
+    if (Model.Count == 1)
+    {
         ViewBag.Title = "About " + Model.First().Name;
     }
     else
@@ -12,22 +12,43 @@
     Layout = "~/Views/Shared/_SubpageLayout.cshtml";
 }
 
-<h2>About</h2>
-
-@if(Model.Count == 1)
+@if (Model.Count == 1)
 {
 
-    <text>@Html.DisplayFor(x => x.First().Name)</text>
+    <h3 style="margin-bottom:.1em">@Html.DisplayFor(x => x.First().Name), PE (MN)</h3>
+    <h4>@Html.DisplayFor(x => x.First().Title)</h4>
+
+
+    <div>
+        <div class="bioImage">
+            <img src="@Model.First().ImagePath" />
+        </div>
+        <div class="container" style="margin-bottom:2em">
+            @Html.Raw(Model.First().Biography)
+        </div>
+
+    </div>
 }
 else
 {
-    <ul>
-        @foreach (Nero.Models.Employee employee in Model)
-        {
 
-            <li><a href="/About/@employee.Name.Substring(0, employee.Name.IndexOf(' '))">@employee.Name</a></li>
-        }
-    </ul>
+    foreach (Nero.Models.Employee employee in Model)
+    {
+        <h3 style="margin-bottom:.1em">@Html.DisplayFor(x => employee.Name), PE (MN)</h3>
+        <h4>@Html.DisplayFor(x => employee.Title)</h4>
+
+
+        <div>
+            <div class="bioImage">
+                <img src="@employee.ImagePath" />
+            </div>
+            <div class="container" style="margin-bottom:2em">
+                @Html.Raw(employee.Biography)
+            </div>
+
+        </div>
+    }
+
 }
 
 

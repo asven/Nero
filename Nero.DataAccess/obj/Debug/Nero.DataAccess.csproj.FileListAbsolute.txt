@@ -5,3 +5,10 @@ C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero.DataAccess\bin\
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero.DataAccess\obj\Debug\Nero.DataAccess.csprojResolveAssemblyReference.cache
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero.DataAccess\obj\Debug\Nero.DataAccess.dll
 C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero.DataAccess\obj\Debug\Nero.DataAccess.pdb
+C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero.DataAccess\bin\Debug\Nero.DataAccess.dll
+C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero.DataAccess\bin\Debug\Nero.DataAccess.pdb
+C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero.DataAccess\bin\Debug\Nero.Models.dll
+C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero.DataAccess\bin\Debug\Nero.Models.pdb
+C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero.DataAccess\obj\Debug\Nero.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero.DataAccess\obj\Debug\Nero.DataAccess.dll
+C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero.DataAccess\obj\Debug\Nero.DataAccess.pdb

@@ -30,6 +30,15 @@
 			animation: none !important;
 		}
 
+
+
+        .bioImage{
+            text-align:center;
+        }
+        .bioImage img{
+            height:20em;
+        }
+
 	body, input, select, textarea {
 		color: #6e6e6e;
 		font-family: 'Source Sans Pro', sans-serif;
@@ -644,7 +653,7 @@
 
 	.feature {
 		position: relative;
-		height: 20em;
+		height: 25em;
 	}
 
 		.feature:after {

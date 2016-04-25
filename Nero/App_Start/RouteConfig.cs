@@ -15,7 +15,7 @@ namespace Nero
 
             routes.MapRoute(
                 name: "AboutSpecific",
-                url: "About/{name}",
+                url: "About/{route}",
                 defaults: new { controller = "About", action = "Index" }
             );
 

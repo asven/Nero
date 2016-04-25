@@ -14,15 +14,15 @@ namespace Nero.Controllers
         // GET: /About/
 
 
-        public ActionResult Index(string name)
+        public ActionResult Index(string route)
         {
-            if(string.IsNullOrEmpty(name))
+            if (string.IsNullOrEmpty(route))
             {
                 return View(EmployeeManager.GetAllEmployees());
             }
             else
             {
-                Employee employee = EmployeeManager.GetEmployeeByFirstName(name);
+                Employee employee = EmployeeManager.GetEmployeeByRouteName(route);
                 if(employee == null)
                 {
                     return View(EmployeeManager.GetAllEmployees());

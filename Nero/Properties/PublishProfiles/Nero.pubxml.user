@@ -103,13 +103,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/01/2015 15:49:34</publishTime>
     </File>
     <File Include="bin/Nero.DataAccess.dll">
-      <publishTime>11/05/2015 15:11:33</publishTime>
+      <publishTime>05/02/2016 13:57:35</publishTime>
     </File>
     <File Include="bin/Nero.dll">
-      <publishTime>11/05/2015 15:21:09</publishTime>
+      <publishTime>05/02/2016 13:57:36</publishTime>
     </File>
     <File Include="bin/Nero.Models.dll">
-      <publishTime>11/05/2015 15:11:33</publishTime>
+      <publishTime>05/02/2016 13:57:35</publishTime>
     </File>
     <File Include="bin/Nero.pdb">
       <publishTime>03/01/2015 15:27:35</publishTime>
@@ -223,25 +223,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/02/2015 10:34:16</publishTime>
     </File>
     <File Include="css/style-mobile.css">
-      <publishTime>04/10/2015 12:46:46</publishTime>
+      <publishTime>05/02/2016 13:50:20</publishTime>
     </File>
     <File Include="css/style-mobilep.css">
       <publishTime>03/02/2015 13:14:19</publishTime>
     </File>
     <File Include="css/style-narrow.css">
-      <publishTime>03/02/2015 10:34:16</publishTime>
+      <publishTime>05/02/2016 13:49:57</publishTime>
     </File>
     <File Include="css/style-narrower.css">
       <publishTime>03/02/2015 10:34:16</publishTime>
     </File>
     <File Include="css/style-normal.css">
-      <publishTime>04/10/2015 12:46:46</publishTime>
+      <publishTime>05/02/2016 13:33:52</publishTime>
     </File>
     <File Include="css/style-wide.css">
       <publishTime>04/10/2015 12:46:46</publishTime>
     </File>
     <File Include="css/style.css">
-      <publishTime>04/10/2015 12:46:46</publishTime>
+      <publishTime>05/02/2016 13:49:58</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>11/05/2015 15:19:38</publishTime>
@@ -273,11 +273,23 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="images/bullet.png">
       <publishTime>03/02/2015 10:34:14</publishTime>
     </File>
+    <File Include="images/EricMeester.jpg">
+      <publishTime>05/02/2016 13:33:52</publishTime>
+    </File>
+    <File Include="images/EricMeesterHeadShot.jpg">
+      <publishTime>05/02/2016 13:33:52</publishTime>
+    </File>
     <File Include="images/header.jpg">
       <publishTime>03/02/2015 10:34:16</publishTime>
     </File>
     <File Include="images/heroAccent.png">
       <publishTime>03/02/2015 10:34:14</publishTime>
+    </File>
+    <File Include="images/JenniferSvennes.jpg">
+      <publishTime>05/02/2016 13:33:52</publishTime>
+    </File>
+    <File Include="images/JenniferSvennesHeadShot.jpg">
+      <publishTime>05/02/2016 13:33:52</publishTime>
     </File>
     <File Include="images/middle.jpg">
       <publishTime>03/03/2015 08:13:13</publishTime>
@@ -421,7 +433,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/02/2015 10:34:14</publishTime>
     </File>
     <File Include="Views/About/Index.cshtml">
-      <publishTime>11/05/2015 15:10:43</publishTime>
+      <publishTime>05/02/2016 13:56:25</publishTime>
     </File>
     <File Include="Views/Email/Index.cshtml">
       <publishTime>03/02/2015 13:38:08</publishTime>
@@ -430,7 +442,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/03/2015 08:13:13</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>11/05/2015 15:06:29</publishTime>
+      <publishTime>05/02/2016 14:03:26</publishTime>
     </File>
     <File Include="Views/Shared/_ContactUsForm.cshtml">
       <publishTime>03/02/2015 14:50:13</publishTime>

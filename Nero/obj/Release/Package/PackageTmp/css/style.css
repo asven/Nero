@@ -9,6 +9,22 @@
 
 /* Basic */
 
+.about-us-float-left{
+    float:left;
+}
+.about-us-float-right{
+    float:right;
+}
+
+
+.right-aligned-list
+{
+    list-style:circle; 
+    text-align:right; 
+    direction:rtl; 
+    padding-right:1em;
+}
+
 	html, body {
 		height: 100%;
 	}
@@ -29,6 +45,15 @@
 			-ms-animation: none !important;
 			animation: none !important;
 		}
+
+
+
+        .bioImage{
+            text-align:center;
+        }
+        .bioImage img{
+            height:20em;
+        }
 
 	body, input, select, textarea {
 		color: #6e6e6e;
@@ -644,7 +669,7 @@
 
 	.feature {
 		position: relative;
-		height: 20em;
+		height: 25em;
 	}
 
 		.feature:after {
@@ -682,7 +707,7 @@
 
 		.feature .content {
 			display: inline-block;
-			padding: 3.5em;
+			padding: 0em 1em 0em 1.5em;
 			vertical-align: middle;
 			width: 48%;
 		}

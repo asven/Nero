@@ -6,3 +6,4 @@ C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero.Models\bin\Debug\
 C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero.Models\bin\Debug\Nero.Models.pdb
 C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero.Models\obj\Debug\Nero.Models.dll
 C:\Users\Jenny\documents\visual studio 2013\Projects\Nero\Nero.Models\obj\Debug\Nero.Models.pdb
+C:\Users\sveaa01\Documents\Visual Studio 2013\Projects\Nero\Nero.Models\obj\Debug\Nero.Models.csprojResolveAssemblyReference.cache

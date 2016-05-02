@@ -15,7 +15,7 @@
 @if (Model.Count == 1)
 {
 
-    <h3 style="margin-bottom:.1em">@Html.DisplayFor(x => x.First().Name), PE (MN)</h3>
+    <h3 style="margin-bottom:.1em">@Html.DisplayFor(x => x.First().Name), @Html.DisplayFor(x => x.First().Certifications)</h3>
     <h4>@Html.DisplayFor(x => x.First().Title)</h4>
 
 
@@ -34,7 +34,7 @@ else
 
     foreach (Nero.Models.Employee employee in Model)
     {
-        <h3 style="margin-bottom:.1em">@Html.DisplayFor(x => employee.Name), PE (MN)</h3>
+        <h3 style="margin-bottom:.1em">@Html.DisplayFor(x => employee.Name), @Html.DisplayFor(x => employee.Certifications)</h3>
         <h4>@Html.DisplayFor(x => employee.Title)</h4>
 
 
@@ -50,6 +50,8 @@ else
     }
 
 }
-
+<div style="text-align:center; margin-bottom:1em">
+    <input type="button" value="Back" onclick="window.location = '/Home/Index';" />
+</div>
 
 

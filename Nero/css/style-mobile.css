@@ -185,3 +185,20 @@
 	#main {
 		padding: 2em 0 2em 0;
 	}
+
+
+    .about-us-float-left{
+    float:none;
+}
+.about-us-float-right{
+    float:none;
+}
+
+
+.right-aligned-list
+{
+    list-style:circle; 
+    text-align:left; 
+    direction:ltr; 
+    padding-right:0em;
+}

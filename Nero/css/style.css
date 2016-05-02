@@ -9,6 +9,22 @@
 
 /* Basic */
 
+.about-us-float-left{
+    float:left;
+}
+.about-us-float-right{
+    float:right;
+}
+
+
+.right-aligned-list
+{
+    list-style:circle; 
+    text-align:right; 
+    direction:rtl; 
+    padding-right:1em;
+}
+
 	html, body {
 		height: 100%;
 	}

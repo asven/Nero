@@ -21,6 +21,8 @@ namespace Nero.Models
 
         public string Title { get; set; }
 
+        public string Certifications { get; set; }
+
         public string ImagePath { get; set; }
     }
 }
